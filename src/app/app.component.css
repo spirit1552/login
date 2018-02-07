@@ -1,0 +1,24 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+  .form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .form-horizontal .form-group:before,
+  .form-horizontal .form-group:after {
+    display: table;
+    content: " ";
+  }
+  .form-horizontal .form-group:after {
+    clear: both;
+  }
+  .form-horizontal .form-group:before,
+.form-horizontal .form-group:after {
+  display: table;
+  content: " ";
+}
+
+.form-horizontal .form-group:after {
+  clear: both;
+}
